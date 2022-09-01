@@ -57,7 +57,7 @@ const Form = ({ createAppointment }) => {
     <Fragment>
       <h2 className="text-white mt-5">Create an appointment</h2>
       {error ? (
-        <p className="badge bg-danger">Todos los campos son obligatorios</p>
+        <p className="badge bg-danger">All fields are required</p>
       ) : null}
       <form onSubmit={submit}>
         <label htmlFor="name" className="form-label mt-3 text-white">
