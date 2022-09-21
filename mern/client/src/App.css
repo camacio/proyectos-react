@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul{
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.background{
+  background-image: url(../public/books.jpg);
+  background-size: cover;
+}
+
+.h{
+  height: 100vh;
+}
+
+.mx{
+  margin-left: -.75rem;
+  margin-right: -.75rem;
+}
