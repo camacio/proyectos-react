@@ -1,11 +1,11 @@
-const moongose = require("mongoose");
-require("dotenv").config({path: "./.env"})
+const mongoose = require("mongoose");
+require("dotenv").config({path: "./.env"});
 
 const connect = () => {
     try{
-        moongose.connect(process.env.DB_MONGO);
+        mongoose.connect(process.env.DB_MONGO);
 
-        console.log("connect");
+        console.log("connected");
 
     }catch(error){
         console.log(error);
